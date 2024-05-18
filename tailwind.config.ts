@@ -14,6 +14,20 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      primary: "hsl(47, 88%, 63%)",
+      neutral: {
+        white: "hsl(0, 0%, 100%)",
+        grey: "hsl(0, 0%, 50%)",
+        black: "hsl(0, 0%, 7%)",
+      },
+    },
+    dropShadow: { 
+      custom: "8px 8px 0px black",
+    },
+    fontWeight:{
+      "very-bold": "900",
+    }
   },
   plugins: [],
 };
